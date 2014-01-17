@@ -1,6 +1,46 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
 #content{}
-#topNav{}
-#navContainer{}
+
+#navContainer{
+	background: #282828;
+}
+
+#topNav{
+	width: 400px;
+	margin:0 auto;
+}
+
+#topNav ul{
+
+}
+
+#topNav ul li{
+	display: block;
+	float: left;
+}
+
+#topNav ul li a{
+	color: white;
+	display: block;
+	font-size: 16px;
+	font-weight: 600;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	text-decoration: none;
+	width: 90px;
+}
+
+#topNav ul li a:link{}
+#topNav ul li a:visited{}
+#topNav ul li a:hover{
+	background: red;
+}
+#topNav ul li a:active{}
+
 #navLinks{}
 
 #underline{}
@@ -8,6 +48,24 @@
 #intro{}
 #portraitContainer{}
 #about{}
+
+/*The Magnificent CLEARFIX*/
+.clearfix:after { 
+  content: "."; 
+  display: block; 
+  height: 0; 
+  clear: both; 
+  visibility: hidden; 
+}
+.clearfix { 
+  display: inline-block;  
+}
+* html .clearfix {  
+  height: 1%;  
+} /* Hides from IE-mac \*/
+.clearfix {  
+  display: block;  
+}
 
 /* Rounded Corners*/
 .btn{
@@ -92,3 +150,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', end
 	height:200px;
 	margin:0 auto;
 }
+
+#portfolioItem1{}
+
+#portfolioItem2{}
+
+#portfolioItem3{}
+
+#portfolioItem4{}
+
+#portfolioItem5{}
+
+#portfolioItem6{}
+
+#detail{}
+
+#contact{}
