@@ -18,13 +18,13 @@ body{
 }
 
 #topNav ul li{
-	display: block;
-	float: left;
+	display: inline-block;
+	/*float: left;*/
 }
 
 #topNav ul li a{
 	color: white;
-	display: block;
+	display: inline-block;
 	font-size: 16px;
 	font-weight: 600;
 	height: 50px;
@@ -51,10 +51,10 @@ body{
 
 /*The Magnificent CLEARFIX*/
 .clearfix:after { 
+  clear: both; 
   content: "."; 
   display: block; 
   height: 0; 
-  clear: both; 
   visibility: hidden; 
 }
 .clearfix { 
