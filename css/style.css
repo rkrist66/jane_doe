@@ -2,15 +2,40 @@ body{
 	font-family: 'Open Sans', sans-serif;
 }
 
+h1{
+	font-weight: 300;
+	font-size: 3em;
+	color: #333333;
+	letter-spacing: -0.025em;
+}
+
+h2{
+	font-weight: 400;
+	font-size: 1.65em;
+}
+
+strong{
+	font-weight: 700;
+}
+
+p{
+	margin-bottom: 40px;
+}
+
+
+
+
 #content{}
 
 #navContainer{
 	background: #282828;
+	position:fixed;
+	width:100%;
 }
 
 #topNav{
-	width: 400px;
 	margin:0 auto;
+	width: 400px;
 }
 
 #topNav ul{
@@ -23,21 +48,25 @@ body{
 }
 
 #topNav ul li a{
+	border-radius: 5px;
 	color: white;
 	display: inline-block;
 	font-size: 16px;
 	font-weight: 600;
-	height: 50px;
-	line-height: 50px;
+	height: 35px;
+	line-height: 35px;
+	margin:8px 6px;
+	padding: 0 5px;
 	text-align: center;
 	text-decoration: none;
-	width: 90px;
+	width: 75px;
 }
 
 #topNav ul li a:link{}
-#topNav ul li a:visited{}
+#topNav ul li a:visited{
+}
 #topNav ul li a:hover{
-	background: red;
+	background: #666666;
 }
 #topNav ul li a:active{}
 
@@ -45,9 +74,108 @@ body{
 
 #underline{}
 
-#intro{}
-#portraitContainer{}
-#about{}
+#intro{
+	padding-top: 150px;
+}
+
+.container{
+	width:1200px;
+	margin:0 auto; /* first var = top & bottom, second = left & right*/
+                   /* if top & bottom or left & right different, enter 4 variables (top:0 right:0 bottom:0 left:0)*/
+	
+}
+
+#portraitContainer{
+	
+}
+
+#introPhoto{
+	border-radius: 150px;
+	width: 300px;
+}
+
+#intro h1{
+	line-height: 130px;
+}
+
+#intro p{
+	font-size: 1.25em;
+	line-height: 125%;
+	margin-bottom: 50px;
+}
+
+#intro p a{
+	color: #333333;
+	text-decoration: underline;
+	font-weight: 600;
+}
+
+#work{
+	background: #fafafa url("img/bg.png");
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+
+#work h2{
+	text-align: center;
+}
+
+#work p{
+}
+
+#workItems:first-child > p{
+
+}
+
+#work .box{
+	margin:auto;
+}
+
+#work .box i{
+	font-size: 10em;
+}
+
+#work .box ul{
+	display: block;
+	list-style-type: none;
+	margin:0;
+	padding:0px;
+}
+
+#work .box ul li{
+	margin:0;
+	padding:0;
+	line-height: 15px;
+}
+
+#workItems{}
+
+#portfolio .box{
+	width:100px;
+	height:200px;
+	margin:0 auto;
+}
+
+#portfolioItem1{}
+
+#portfolioItem2{}
+
+#portfolioItem3{}
+
+#portfolioItem4{}
+
+#portfolioItem5{}
+
+#portfolioItem6{}
+
+#detail{}
+
+#contact{}
+
+.center{
+	text-align: center;
+
+}
 
 /*The Magnificent CLEARFIX*/
 .clearfix:after { 
@@ -100,69 +228,3 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', end
   -webkit-box-shadow: 0px 0px 4px 0px #ffffff; /* Android 2.3+, iOS 4.0.2-4.2, Safari 3-4 */
           box-shadow: 0px 0px 4px 0px #ffffff; /* Chrome 6+, Firefox 4+, IE 9+, iOS 5+, Opera 10.50+ */
 }
-
-#work{}
-
-.container{
-	width:1200px;
-	margin:0 auto; /* first var = top & bottom, second = left & right*/
-                   /* if top & bottom or left & right different, enter 4 variables (top:0 right:0 bottom:0 left:0)*/
-}
-
-.box{
-	color:white;
-	background: #37807E;
-	width:100px;
-	height:100px;
-	margin:auto;
-}
-
-.box ul{
-	display: block;
-	list-style-type: none;
-	margin:0;
-	padding:0px;
-}
-
-.box ul li{
-	margin:0;
-	padding:0;
-	line-height: 15px;
-}
-
-#workItems{}
-
-.container{
-	width:1200;
-	margin:0 auto;
-}
-
-#work .box {
-	background:blue;
-	width:100px;
-	height:100px;
-	margin:0 auto;
-}
-
-#portfolio .box{
-	background: blue;
-	width:100px;
-	height:200px;
-	margin:0 auto;
-}
-
-#portfolioItem1{}
-
-#portfolioItem2{}
-
-#portfolioItem3{}
-
-#portfolioItem4{}
-
-#portfolioItem5{}
-
-#portfolioItem6{}
-
-#detail{}
-
-#contact{}
