@@ -118,63 +118,120 @@ p{
 
 #work h2{
 	text-align: center;
+	margin-bottom: 20px;
 }
 
 #work p{
-}
-
-#workItems:first-child > p{
-
 }
 
 #work .box{
 	margin:auto;
 }
 
-#work .box i{
-	font-size: 10em;
+#workItems{}
+
+#workItems .box {
+	padding: 40px;
+	color: #ea8a95;
+	width: 220px;
+	float: left;
+	margin-left: 20px;
+	text-align: center;
+	background: #ffffff;
 }
 
-#work .box ul{
-	display: block;
+#workItems .box .fa{
+	color: #ea8a95;
+}
+
+#workItems .box i{
+	display: inline-block;
+	font-size: 8em;
+	margin-bottom: 10px;
+}
+
+#workItems .box h3{
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 10px;
+	color: #333333;
+}
+
+#workItems .box p{
+	color: #888888;
+	line-height: 30px;
+}
+
+#workItems .box ul{
 	list-style-type: none;
 	margin:0;
 	padding:0px;
 }
 
-#work .box ul li{
-	margin:0;
-	padding:0;
-	line-height: 15px;
+#workItems footer{
+	padding: 20px;
 }
 
-#workItems{}
 
-#portfolio .box{
-	width:100px;
-	height:200px;
-	margin:0 auto;
+
+/*portfolio*/
+
+#portfolio{
+	background: #f4f4f4 url("img/bg.png");
+	padding:70px 0 40px;
 }
 
-#portfolioItem1{}
+#portfolio header{
+	margin-bottom: 80px;
+}
 
-#portfolioItem2{}
+#portfolio .portfolioItem{
+	width: 300px;
+	margin:0 0 40px 80px;
+	float:left;
+	text-align: center;
+	background: #ffffff;
+}
 
-#portfolioItem3{}
+#portfolio .portfolioItem footer{
+	padding: 20px;
+}
 
-#portfolioItem4{}
+#portfolio .portfolioItem footer h3{
+	font-size: 1.5em;
+	letter-spacing: -0.015em;
+	margin-bottom: 15px;
+}
 
-#portfolioItem5{}
+#portfolio .portfolioItem footer h3 a{
+	text-decoration: none;
+	color: #333333;
+	font-weight:700;
+}
 
-#portfolioItem6{}
+#portfolio .portfolioItem footer p{
+}
+
 
 #detail{}
 
-#contact{}
+#contact{
+	padding:70px 0 40px;
+}
+
+#findMe{
+	padding:70px 0 40px;
+}
+
+input[type=test]{}
+input[type=email]{}
+input[type=radio]{}
+
+input[type=submit],
+input[type=reset]{}
 
 .center{
 	text-align: center;
-
 }
 
 /*The Magnificent CLEARFIX*/
